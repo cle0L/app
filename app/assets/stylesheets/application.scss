@@ -1,11 +1,18 @@
 @import "bootstrap";
 
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    text-indent: 5px;
+}
 
  p {
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     padding-left: 0.5%;
     font-weight: 400;
+    text-indent: 5px;
  }
 
  .base {
@@ -15,3 +22,17 @@
      text-transform: uppercase;
  }
 
+.form-check-input {
+    width: 35px;
+    height: 35px; 
+}
+
+.title-and-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.title-description {
+    display: flex;
+    flex-direction: column;
+}
