@@ -1,31 +1,38 @@
 <div id="<%= dom_id film %>">
-<p>
-    <strong>Viewed:</strong>
-    <%= film.viewed %>
-  </p>
 
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
   <p>
-    <strong>Title:</strong>
+  <strong></strong>
+  <%= film.viewed %>
+</p>
+  </label>
+</div>
+
+  <section class="base">
+  <p> 
     <%= film.title %>
   </p>
 
-  <p>
-    <strong>Director:</strong>
+  <p>  
+    <strong></strong>
     <%= film.director %>
   </p>
 
-  <p>
-    <strong>Year:</strong>
+  <p>  
+    <strong></strong>
     <%= film.year %>
   </p>
+  </section>
 
   <p>
-    <strong>Review:</strong>
+    <strong></strong>
     <%= film.review %>
   </p>
 
   <p>
-    <strong>Poster:</strong>
+    <strong></strong>
     <%= film.poster %>
   </p>
 

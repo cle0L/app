@@ -1,0 +1,17 @@
+@import "bootstrap";
+
+
+ p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding-left: 0.5%;
+    font-weight: 400;
+ }
+
+ .base {
+     display: flex;
+     flex-direction: row;
+     padding-left: 0.5%;
+     text-transform: uppercase;
+ }
+
