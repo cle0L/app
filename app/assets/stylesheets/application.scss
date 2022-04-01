@@ -36,3 +36,14 @@ h2{
     display: flex;
     flex-direction: column;
 }
+
+.cut {
+    height: 117px;
+    width: 316px;
+    object-fit: cover;
+    border-radius: 5px;
+   }
+
+.center {
+    margin-left:25%;
+   }

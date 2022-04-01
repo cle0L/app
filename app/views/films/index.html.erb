@@ -5,9 +5,10 @@
 
 <img src="https://64.media.tumblr.com/7fa859142c396e82302fc4b6d480b95c/7f305e306b5a1bee-08/s250x400/81a35e52d3058bd8cb112625b9b757c2e11621d5.png" alt="logo to watch list">
 
-<div id="films">
+<div id="films" >
   <% @films.each do |film| %>
     <%= render film %>
+
     <p>
       <%= link_to "Show this film", film %>
     </p>
